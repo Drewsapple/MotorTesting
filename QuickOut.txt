@@ -1,0 +1,41 @@
+[1] "Linear Model for free spinning systems"
+
+Call:
+lm(formula = RPM ~ Voltage, data = motorSample)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-6771.9   -80.3    16.1    93.8  5565.6 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -67.5194     8.2360  -8.198 3.21e-16 ***
+Voltage     404.1497     0.8873 455.501  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 530.7 on 4196 degrees of freedom
+Multiple R-squared:  0.9802,	Adjusted R-squared:  0.9802 
+F-statistic: 2.075e+05 on 1 and 4196 DF,  p-value: < 2.2e-16
+
+[1] "Multiple Regression Model for higher inertia systems"
+
+Call:
+lm(formula = Voltage ~ RPM + RPM.per.s, data = motorSample)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-11.6745  -0.4232  -0.0368   0.4159  14.5599 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 1.368e-01  1.483e-02   9.222   <2e-16 ***
+RPM         2.420e-03  3.908e-06 619.143   <2e-16 ***
+RPM.per.s   5.882e-05  9.808e-07  59.973   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9539 on 4195 degrees of freedom
+Multiple R-squared:  0.9893,	Adjusted R-squared:  0.9893 
+F-statistic: 1.944e+05 on 2 and 4195 DF,  p-value: < 2.2e-16
+
