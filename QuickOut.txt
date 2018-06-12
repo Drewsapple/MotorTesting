@@ -39,6 +39,10 @@ Residual standard error: 530.7 on 4196 degrees of freedom
 Multiple R-squared:  0.9802,	Adjusted R-squared:  0.9802 
 F-statistic: 2.075e+05 on 1 and 4196 DF,  p-value: < 2.2e-16
 
+null device 
+          1 
+null device 
+          1 
 [1] "Multiple Regression Model for higher inertia systems"
 
 Call:

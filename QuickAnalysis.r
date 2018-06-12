@@ -10,9 +10,12 @@ linearModel <- lm( RPM ~ Voltage, data=motorSample)
 print(summary(linearModel))
 
 abline(linearModel, col='red')
+dev.off()
+png(file = args[3])
+plot(y=resid(linearModel), x=motorSample$RPM)
+dev.off()
 
 print("Multiple Regression Model for higher inertia systems")
 inverseMult <- lm( Voltage ~ RPM + RPM.per.s, data=motorSample)
 print(summary(inverseMult))
 
-dev.off()
