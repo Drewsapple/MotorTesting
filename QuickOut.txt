@@ -1,3 +1,24 @@
+      Time              Input           Delta.Input           Velocity      
+ Min.   : 0.08296   Min.   :-1.00000   Min.   :-97.44095   Min.   :-1702.1  
+ 1st Qu.:10.49274   1st Qu.:-0.94531   1st Qu.:  0.00000   1st Qu.:-1534.5  
+ Median :20.98473   Median :-0.08594   Median :  0.00000   Median : -220.3  
+ Mean   :20.98505   Mean   :-0.08255   Mean   :  0.01801   Mean   : -154.3  
+ 3rd Qu.:31.47722   3rd Qu.: 0.75591   3rd Qu.:  0.00000   3rd Qu.: 1206.0  
+ Max.   :41.96971   Max.   : 1.00000   Max.   :106.82825   Max.   : 1651.0  
+  Acceleration          Voltage         Delta.Voltage             RPM         
+ Min.   :-56948.07   Min.   :-11.8500   Min.   :-1154.6752   Min.   :-5106.4  
+ 1st Qu.: -1872.00   1st Qu.:-11.2020   1st Qu.:    0.0000   1st Qu.:-4603.4  
+ Median :     0.00   Median : -1.0184   Median :    0.0000   Median : -660.8  
+ Mean   :    28.47   Mean   : -0.9783   Mean   :    0.2134   Mean   : -462.9  
+ 3rd Qu.:  1908.97   3rd Qu.:  8.9575   3rd Qu.:    0.0000   3rd Qu.: 3617.9  
+ Max.   : 72492.49   Max.   : 11.8500   Max.   : 1265.9148   Max.   : 4952.9  
+   RPM.per.s         
+ Min.   :-170844.20  
+ 1st Qu.:  -5615.99  
+ Median :      0.00  
+ Mean   :     85.41  
+ 3rd Qu.:   5726.92  
+ Max.   : 217477.48  
 [1] "Linear Model for free spinning systems"
 
 Call:
